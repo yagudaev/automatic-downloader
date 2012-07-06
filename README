@@ -1,6 +1,4 @@
-Automatic Downloader is a simple python script that lets you download things quickly off a webpage. 
-The adventage to using it over using something like wget on unix is that unlike wget it downloads files 
-in parallel. You can specify the maximum number of concurrent downloads.
+Automatic Downloader is a simple python script that lets you download things quickly off a webpage. The adventage to using it over using something like wget on unix is that unlike wget it downloads files in parallel. You can specify the maximum number of concurrent downloads.
 
 Usage:
 python downloader.py www.example.com
