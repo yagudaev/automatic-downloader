@@ -139,7 +139,10 @@ def main():
     url = sys.argv[1]
     if url.endswith('/'):
         url = url[:-1]
-        
+    
+    if not url.startswith('http://') and not url.startswith('https://'):
+	url = 'http://' + url;
+    
     print "`%s`" % url
     
     # defaults
